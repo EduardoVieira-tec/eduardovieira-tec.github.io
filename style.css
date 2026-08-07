@@ -1,1 +1,114 @@
-
+/* ========================================
+   ESTILOS DOS ELEMENTOS
+   ======================================== */
+ 
+* {
+    box-sizing: border-box;
+}
+ 
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(180deg, #ffedd5 0%, #fed7aa 50%, #ffffff 100%);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+ 
+h1 {
+    color: black;
+    font-size: 80px;
+    text-align: right;
+}
+ 
+h2 {
+    color: black;
+}
+ 
+p {
+    color: black;
+    align-items: center;
+}
+ 
+a {
+    color: black;
+    text-decoration: none;
+}
+ 
+/* ========================================
+   CLASSES
+   ======================================== */
+ 
+.cargo {
+    color: black;
+    font-weight: bold;
+}
+ 
+.link-social {
+    color: rebeccapurple;
+}
+ 
+/* ========================================
+   SEÇÕES
+   ======================================== */
+ 
+#hero {
+    padding: 30px;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+ 
+#hero img {
+    width: 300px;
+    height: auto;
+}
+ 
+#sobre,
+#habilidades,
+#projetos,
+#contato {
+    padding: 30px;
+    margin: 20px;
+}
+ 
+/* ========================================
+   CABEÇALHO
+   ======================================== */
+ 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px;
+}
+ 
+nav {
+    display: flex;
+    gap: 20px;
+}
+ 
+/* ========================================
+   PROJETOS
+   ======================================== */
+ 
+.Projetos-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    font-size: 20px;
+}
+ 
+/* ========================================
+   RODAPÉ
+   ======================================== */
+ 
+footer {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+}
+ 
+footer p {
+    color: white;
+}
