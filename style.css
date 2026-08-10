@@ -5,18 +5,19 @@
 * {
     box-sizing: border-box;
 }
+
  
 body {
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(180deg, #ffedd5 0%, #fed7aa 50%, #ffffff 100%);
+    background: linear-gradient(180deg, #5b79b9 0%, #a497f0 50%, #fdfcfc 100%);
     margin: 0;
     padding: 0;
     min-height: 100vh;
 }
- 
+
 h1 {
     color: black;
-    font-size: 80px;
+    font-size: 60px;
     text-align: right;
 }
  
@@ -52,19 +53,22 @@ a {
    ======================================== */
  
 #hero {
-    padding: 30px;
-    margin: 20px;
-    border: 2px solid black;
-    border-radius: 10px;
+    padding: 70px;
+    margin: 50px;
+    /*border: 2px solid black;*/
+    /*border-radius: 10px;*/
+    text-align: center;
 }
  
 #hero img {
     width: 300px;
     height: auto;
+    display: block;
+    margin: 0 auto;
 }
  
 #sobre,
-#habilidades,
+#Habilidades,
 #projetos,
 #contato {
     padding: 30px;
@@ -79,14 +83,28 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 30px;
     flex-direction: row;
-    padding: 20px;
 }
+   
  
 nav {
     display: flex;
-    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    flex-direction: row;
+    margin: 10px;
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
+
+header :hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px (0, 0, 0, 0.2);
+}
+
  
 /* ========================================
    PROJETOS
