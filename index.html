@@ -1,171 +1,351 @@
 <!DOCTYPE html>
 <html lang="pt-br">
- 
+
 <head>
     <meta charset="UTF-8">
- 
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://github.com/EduardoVieira-tec?tab=repositories">
-    <link rel="stylesheet" href="https://www.linkedin.com/in/eduardo-vieira-737712400/?isSelfProfile=true">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Eduardo Vieira | Portifólio</title>
- 
+    <meta
+        name="description"
+        content="Portfólio de Eduardo Vieira, desenvolvedor Front-End em formação."
+    >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Eduardo Vieira | Portfólio</title>
 </head>
- 
+
 <body>
-   
-    <header>
- 
-        <h1>Eduardo Vieira | Desenvolvedor Front-End</h1>
- 
-        <nav class="seções">
-            <a href="#hero">Início</a>
+
+    <header class="cabecalho">
+
+        <a href="#inicio" class="logo">
+            Eduardo<span>Vieira</span>
+        </a>
+
+        <nav class="menu">
+            <a href="#inicio">Início</a>
             <a href="#sobre">Sobre</a>
             <a href="#habilidades">Habilidades</a>
             <a href="#projetos">Projetos</a>
             <a href="#contato">Contato</a>
         </nav>
- 
+
     </header>
- 
+
     <main>
 
-        <section id="hero">
- 
-            <h2 class="saudação">Olá, eu sou Eduardo!</h2>
- 
-            <img
-                src="Imagens/Captura de tela 2026-04-03 001820.png"
-                alt="Foto de Eduardo Vieira">
- 
-            <p>
-                <strong>Sou estudante em desenvolvimento web e estou construindo
-                meu portifólio para compartilhar meus projetos e aprendizados.</strong>
-            </p>
- 
-        </section>
- 
-        <section id="sobre">
- 
-                <h2>Sobre Mim</h2>
- 
-                <p>
-                        Tenho interesse em desenvolvimento web e estou aprendendo
-                        HTML, CSS e outras tecnologias para criar sites modernos.
+        <!-- INÍCIO -->
+
+        <section id="inicio" class="hero">
+
+            <div class="hero-conteudo">
+
+                <p class="apresentacao">Olá, eu sou</p>
+
+                <h1>Eduardo Vieira</h1>
+
+                <h2>Desenvolvedor Front-End em formação</h2>
+
+                <p class="hero-descricao">
+                    Desenvolvo projetos utilizando HTML, CSS e JavaScript,
+                    buscando criar páginas modernas, organizadas e responsivas.
                 </p>
- 
-        </section>
-        
-        <div class="seções">
-            
-        <section id="Habilidades">
- 
-            <h2>Habilidades</h2>
- 
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Git e GitHub</li>
-            </ul>
- 
-        </section>
- 
-        <section id="projetos">
- 
-            <h2>Projetos</h2>
- 
-            <div class="Projetos-grid">
-                <article>
-                    <h3>Loading Page</h3>
-                    <p>Página criada utilizando HTML.</p>
-                </article>
- 
-                <article>
-                    <h3>Currículo Online</h3>
-                    <p>Primeira versão do meu portifólio</p>
-                </article>
- 
-                <article>
-                    <h3>Site Responsivo</h3>
-                    <p>Projeto desenvolvido para praticar CSS.</p>
-                </article>
- 
-            </div>
- 
-        </section>
- 
-        <section id="contato">
- 
-            <h2>Entre em contato</h2>
- 
-            <form action="#" method="post">
+
+                <div class="hero-botoes">
+
+                    <a href="#projetos" class="botao botao-principal">
+                        Ver projetos
+                    </a>
+
+                    <a href="#contato" class="botao botao-secundario">
+                        Entrar em contato
+                    </a>
+
+                </div>
 
             </div>
-        
-            <div class="formulário">
-                 <p>
- 
-                <label for="nome">Nome</label><br>
- 
-                <input  
- 
-                type="text"
-                id="nome"
-                name="nome">
-            </p>
- 
-            <p>
-               
-                <label for="email">E-mail</label><br>
- 
-                <input
- 
-                type="email"
-                id="email"
-                name="email">
-               
-            </p>
- 
-            <p>
-                <label for="senha">Senha</label><br>
- 
-                <input
- 
-                    type="senha"
-                    id="senha"
-                    name="senha">
-                   
-            </p>
- 
-            <p>
-                <input
-                    type="submit"
-                    value="ENVIAR">
-            </p>
+
+            <div class="foto-container">
+
+                <img
+                    src="Imagens/Captura de tela 2026-04-03 001820.png"
+                    alt="Foto profissional de Eduardo Vieira"
+                >
 
             </div>
-           
-        </form>
- 
+
         </section>
- 
+
+        <!-- SOBRE -->
+
+        <section id="sobre" class="secao">
+
+            <p class="secao-destaque">Conheça um pouco mais</p>
+
+            <h2>Sobre mim</h2>
+
+            <div class="sobre-conteudo">
+
+                <p>
+                    Sou estudante de Desenvolvimento Front-End pelo Senac,
+                    com conhecimentos em HTML, CSS, JavaScript, Bootstrap,
+                    responsividade, Git e GitHub.
+                </p>
+
+                <p>
+                    Também sou Técnico em Design de Interiores e possuo
+                    experiência profissional na área administrativa,
+                    utilizando Excel, gestão de chamados e organização
+                    de informações.
+                </p>
+
+                <p>
+                    Estou desenvolvendo projetos para aprimorar minhas
+                    habilidades e construir minha carreira na área de tecnologia.
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- HABILIDADES -->
+
+        <section id="habilidades" class="secao">
+
+            <p class="secao-destaque">Tecnologias que estou aprendendo</p>
+
+            <h2>Minhas habilidades</h2>
+
+            <div class="habilidades-grid">
+
+                <article class="habilidade-card">
+                    <h3>HTML</h3>
+                    <p>Estruturação de páginas com HTML semântico.</p>
+                </article>
+
+                <article class="habilidade-card">
+                    <h3>CSS</h3>
+                    <p>Estilização, Flexbox, Grid e responsividade.</p>
+                </article>
+
+                <article class="habilidade-card">
+                    <h3>JavaScript</h3>
+                    <p>Interatividade, eventos e lógica de programação.</p>
+                </article>
+
+                <article class="habilidade-card">
+                    <h3>Bootstrap</h3>
+                    <p>Criação de páginas responsivas com componentes.</p>
+                </article>
+
+                <article class="habilidade-card">
+                    <h3>Git e GitHub</h3>
+                    <p>Versionamento e publicação de projetos.</p>
+                </article>
+
+                <article class="habilidade-card">
+                    <h3>Excel</h3>
+                    <p>Organização, atualização e controle de informações.</p>
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- PROJETOS -->
+
+        <section id="projetos" class="secao">
+
+            <p class="secao-destaque">Um pouco do meu trabalho</p>
+
+            <h2>Meus projetos</h2>
+
+            <div class="projetos-grid">
+
+                <article class="projeto-card">
+
+                    <div class="projeto-numero">01</div>
+
+                    <h3>Viagens.com</h3>
+
+                    <p>
+                        Site de viagens desenvolvido com HTML, CSS e
+                        JavaScript, apresentando destinos pelo Brasil.
+                    </p>
+
+                    <div class="tecnologias">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <a 
+                        href="https://github.com/EduardoVieira-tec/Site-do-cliente-Pedro-Philipe-atividade-do-Senac-" 
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="projeto-link">Ver projeto →
+                    </a>
+
+                </article>
+
+                <article class="projeto-card">
+
+                    <div class="projeto-numero">02</div>
+
+                    <h3>Clube Nautico Capibaribe</h3>
+
+                    <p>
+                        Página criada para apresentar a história do Nautico 
+                        de forma breve e aprofundada.
+                    </p>
+
+                    <div class="tecnologias">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+
+                    <a 
+                    href="https://github.com/EduardoVieira-tec/Clube-Nautico-Capibaribe"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                     class="projeto-link">Ver projeto →
+                    </a>
+
+                </article>
+
+                <article class="projeto-card">
+
+                    <div class="projeto-numero">03</div>
+
+                    <h3>Bingo 2.0</h3>
+
+                    <p>
+                        Projeto desenvolvido para fazer um sorteio
+                        real de bingo.
+                    </p>
+
+                    <div class="tecnologias">
+                        <span>HTML</span>
+                    </div>
+
+                    <a 
+                    href="https://github.com/EduardoVieira-tec/Bingo-2.0" 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="projeto-link">Ver projeto →
+                </a>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- CONTATO -->
+
+        <section id="contato" class="secao contato">
+
+            <div class="contato-texto">
+
+                <p class="secao-destaque">Vamos conversar?</p>
+
+                <h2>Entre em contato</h2>
+
+                <p>
+                    Estou disponível para novas oportunidades, projetos
+                    e conexões profissionais.
+                </p>
+
+                <p>
+                    E-mail:
+                    <a href="mailto:eduardovsfilho@gmail.com">
+                        eduardovsfilho@gmail.com
+                    </a>
+                </p>
+
+            </div>
+
+            <form class="formulario">
+
+                <div class="campo">
+                    <label for="nome">Nome</label>
+
+                    <input
+                        type="text"
+                        id="nome"
+                        name="nome"
+                        placeholder="Digite seu nome"
+                        required
+                    >
+                </div>
+
+                <div class="campo">
+                    <label for="email">E-mail</label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Digite seu e-mail"
+                        required
+                    >
+                </div>
+
+                <div class="campo">
+                    <label for="mensagem">Mensagem</label>
+
+                    <textarea
+                        id="mensagem"
+                        name="mensagem"
+                        rows="5"
+                        placeholder="Digite sua mensagem"
+                        required
+                    ></textarea>
+                </div>
+
+                <button type="submit">Enviar mensagem</button>
+
+            </form>
+
+        </section>
+
     </main>
- 
+
     <footer>
- 
-        <p>&copy; 2026 Eduardo Vieira</p>
- 
-        <p>E-mail: eduardovsfilho@gmail.com</p>
- 
-        <p>
-            <a class="link-social" href="https://github.com/EduardoVieira-tec?tab=repositories">Github</a>
-            <a class="link-social" href="https://www.linkedin.com/in/eduardo-vieira-737712400/">Linkedin</a>
-        </p>
- 
+
+        <p>&copy; 2026 Eduardo Vieira. Todos os direitos reservados.</p>
+
+        <div class="redes-sociais">
+
+            <a
+                href="https://github.com/EduardoVieira-tec"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                GitHub
+            </a>
+
+            <a
+                href="https://www.linkedin.com/in/eduardo-vieira-737712400/"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                LinkedIn
+            </a>
+
+        </div>
+
     </footer>
- 
+
 </body>
- 
-<html>
+
+</html>
