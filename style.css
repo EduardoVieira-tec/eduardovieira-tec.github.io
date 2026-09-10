@@ -339,69 +339,6 @@ textarea {
 .contato-texto a {
     color: #38bdf8;
 }
-
-.formulario {
-    padding: 30px;
-    background-color: #0e1b2d;
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    border-radius: 16px;
-}
-
-.campo {
-    margin-bottom: 20px;
-}
-
-.campo label {
-    margin-bottom: 7px;
-    display: block;
-    color: #e7edf6;
-    font-weight: 500;
-}
-
-.campo input,
-.campo textarea {
-    width: 100%;
-    padding: 13px 15px;
-
-    color: #ffffff;
-    background-color: #07111f;
-
-    border: 1px solid #334155;
-    border-radius: 8px;
-    outline: none;
-}
-
-.campo input:focus,
-.campo textarea:focus {
-    border-color: #38bdf8;
-}
-
-.campo textarea {
-    resize: vertical;
-}
-
-.formulario button {
-    width: 100%;
-    padding: 14px;
-
-    color: #07111f;
-    background-color: #38bdf8;
-
-    border: none;
-    border-radius: 8px;
-
-    font-size: 15px;
-    font-weight: 700;
-    cursor: pointer;
-
-    transition: 0.3s ease;
-}
-
-.formulario button:hover {
-    background-color: #7dd3fc;
-    transform: translateY(-2px);
-}
-
 /* ========== RODAPÉ ========== */
 
 footer {
