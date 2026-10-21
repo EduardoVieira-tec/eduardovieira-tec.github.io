@@ -84,6 +84,20 @@ textarea {
     color: #38bdf8;
 }
 
+.bnt-download{
+
+  padding: 12px 24px;
+  background: #38bdf8;
+  color: black;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+.bnt-download:hover{
+    background: #1d4ed8;
+}
 /* ========== HERO ========== */
 
 .hero {
